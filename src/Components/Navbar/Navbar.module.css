@@ -1,0 +1,66 @@
+.container {
+  position: fixed;
+  display: flex;
+  width: 310px;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  background-color: var(--bg-color-blue);
+  height: 98vh;
+  z-index: 100;
+  transform: translateX(-310px);
+  transition: all 1s;
+  color: white;
+  text-align: center;
+}
+
+.navmenu {
+  padding-left: 0;
+  list-style: none;
+  text-align: center;
+}
+
+.hamb_icon {
+  color: white;
+  background-color: var(--bg-color-blue);
+  font-size: 2rem;
+  position: fixed;
+  padding: 0.5rem 1rem;
+  margin: 0.5rem;
+  transform: translateX(0);
+  transition: transform 1s;
+  z-index: 100;
+  border-radius: 50%;
+}
+
+.hamb_icon:hover {
+  cursor: pointer;
+}
+
+.hamb {
+  display: none;
+}
+
+.hamb:checked ~ .container {
+  transform: translateX(0);
+}
+
+.hamb:checked ~ .hamb_icon {
+  transform: translateX(310px);
+  transition: transform 1s;
+}
+
+.link {
+  color: white;
+}
+
+@media screen and (min-width: 760px) {
+  .hamb_icon {
+    display: none;
+  }
+
+  .container {
+    transform: translateX(0px);
+    float: left;
+  }
+}

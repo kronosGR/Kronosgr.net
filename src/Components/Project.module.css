@@ -1,0 +1,47 @@
+.container {
+  text-align: left;
+  margin: 1rem;
+  padding: 1rem;
+  border: 1px solid var(--bg-color-blue);
+  border-radius: 10px;
+}
+
+.title_container {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 1.7rem;
+}
+
+.year {
+  background-color: var(--bg-color-blue);
+  color: white;
+  padding: 0.5rem;
+}
+
+.techs_container {
+  margin-left: 1rem;
+}
+
+.tech_img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  margin: 0 0.2rem;
+}
+
+.btn_container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.img {
+  width: 100%;
+  margin: 1rem 0;
+}

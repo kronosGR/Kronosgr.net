@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  color: var(--bg-color-blue);
+  text-align: center;
+}
+
+.title {
+  font-family: var(--font-playfair);
+  font-size: 2rem;
+}
+
+.work {
+  font-family: var(--font-playfair);
+  font-size: 1.5rem;
+}
+
+.love {
+  font-family: var(--font-playfair);
+  font-size: 1.1rem;
+}

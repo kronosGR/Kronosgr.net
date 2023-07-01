@@ -1,0 +1,26 @@
+.button {
+  color: var(--bg-color-blue);
+  background-color: white;
+  padding: 0 7px;
+  text-decoration: none;
+  border: 1px solid var(--bg-color-blue);
+  font-size: 2rem;
+  display: flex;
+  margin-top: 10px;
+  box-shadow: 5px 5px 5px var(--bg-color-blue);
+}
+
+.button:hover,
+.button:active {
+  background-color: var(--bg-color-blue);
+  border: 1px solid white;
+  color: white;
+  transform: translate(5px, 5px);
+  box-shadow: none;
+  cursor: pointer;
+}
+
+.button_img {
+  width: 32px;
+  margin: 7px;
+}
