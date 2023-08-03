@@ -1,5 +1,32 @@
 export const projects = [
   {
+    id: 8,
+    name: 'Weather',
+    year: 2023,
+    info: `Weather App`,
+    plus: `Responsive
+      Web
+      Android
+      OpenWeather API
+      React Leaflet
+  `,
+    techs_imgs: [
+      'icons/html.svg',
+      'icons/css.svg',
+      'icons/javascript.svg',
+      'icons/ionic.png',
+      'icons/react.png',
+    ],
+    thumb: 'images/weather.png',
+    img: 'images/weather.png',
+    source: '',
+    urls: {
+      url: 'https://weather.kandz.me/',
+      android:
+        'https://play.google.com/store/apps/details?id=net.kandz.weather',
+    },
+  },
+  {
     id: 7,
     name: 'Wind Converter',
     year: 2023,
