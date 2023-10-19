@@ -10,6 +10,13 @@ const Projects = () => {
     <div className={styles.container} id='projects'>
       <Title text='Projects' />
       <div className={styles.wrapper}>
+        <a
+          className={styles.link}
+          target='_blank'
+          rel='noreferrer'
+          href='https://github.com/kronosGR/Projects'>
+          Visit Github Projects
+        </a>
         {projects.map((project) => (
           <Project project={project} key={project.id} />
         ))}

@@ -35,6 +35,11 @@ const Navbar = () => {
           url='https://github.com/kronosGR'
           title='Github'
         />
+        <ExternalLink
+          icon='/icons/github.svg'
+          url='https://github.com/kronosGR/Projects'
+          title='Github Projects'
+        />
         <a
           href='mailto:geo.elgeo@gmail.com'
           target='_blank'
