@@ -20,6 +20,14 @@ export const skills = [
     size: 3,
   },
   {
+    name: 'Express.js',
+    size: 3,
+  },
+  {
+    name: 'Sequelize.js',
+    size: 3,
+  },
+  {
     name: 'Next.js',
     size: 2,
   },
@@ -28,11 +36,15 @@ export const skills = [
     size: 2,
   },
   {
-    name: 'SQL',
+    name: 'MySQL',
     size: 2,
   },
   {
     name: 'Inkscape',
+    size: 2,
+  },
+  {
+    name: 'jQuery',
     size: 2,
   },
   {
@@ -48,11 +60,7 @@ export const skills = [
     size: 2,
   },
   {
-    name: 'Php',
-    size: 1,
-  },
-  {
-    name: 'C++',
+    name: 'Swagger',
     size: 1,
   },
   {

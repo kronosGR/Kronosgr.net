@@ -1,6 +1,32 @@
 export const projects = [
   {
     id: 8,
+    name: 'Todo',
+    year: 2023,
+    info: `Simple Todo REST API`,
+    plus: `Node.js
+      Express.js
+      MySQL
+      Sequelize
+      JWT
+      Swagger
+  `,
+    techs_imgs: [
+      'icons/nodejs.svg',
+      'icons/express.png',
+      'icons/sequelize.png',
+      'icons/swagger.png',
+    ],
+    thumb: 'images/todo.png',
+    img: 'images/todo.png',
+    source: 'https://github.com/kronosGR/jan23ft-api-ca-kronosGR',
+    urls: {
+      url: '',
+      android: '',
+    },
+  },
+  {
+    id: 8,
     name: 'Weather',
     year: 2023,
     info: `Weather App`,
@@ -22,8 +48,7 @@ export const projects = [
     source: '',
     urls: {
       url: 'https://weather.kandz.me/',
-      android:
-        'https://play.google.com/store/apps/details?id=net.kandz.weather',
+      android: 'https://play.google.com/store/apps/details?id=net.kandz.weather',
     },
   },
   {
@@ -47,8 +72,7 @@ export const projects = [
     source: '',
     urls: {
       url: 'https://windconverter.kandz.me/',
-      android:
-        'https://play.google.com/store/apps/details?id=windconverter.kandz.me',
+      android: 'https://play.google.com/store/apps/details?id=windconverter.kandz.me',
     },
   },
   {
@@ -72,8 +96,7 @@ export const projects = [
     source: '',
     urls: {
       url: 'https://chronocalculator.kandz.me/',
-      android:
-        'https://play.google.com/store/apps/details?id=me.kandz.chronocalculator',
+      android: 'https://play.google.com/store/apps/details?id=me.kandz.chronocalculator',
     },
   },
   {
@@ -119,8 +142,7 @@ export const projects = [
     ],
     thumb: 'images/pet-paradise.png',
     img: 'images/full-pet-paradise.png',
-    source:
-      'https://github.com/kronosGR/Georgios-Katsanakis-semester-project-2',
+    source: 'https://github.com/kronosGR/Georgios-Katsanakis-semester-project-2',
     urls: { url: 'http://petparadise.kronosgr.net/' },
   },
   {
