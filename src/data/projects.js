@@ -1,6 +1,34 @@
 export const projects = [
   {
     id: 8,
+    name: 'eStore ',
+    year: 2023,
+    info: `Backend + Admin Panel - You can find credentials at the git repository`,
+    plus: `Node.js
+      Express.js
+      MySQL
+      Sequelize
+      JWT
+      Swagger
+      bootstrap
+  `,
+    techs_imgs: [
+      'icons/nodejs.svg',
+      'icons/express.png',
+      'icons/sequelize.png',
+      'icons/swagger.png',
+      'icons/mysql.svg',
+    ],
+    thumb: 'images/estore.png',
+    img: 'images/estore.png',
+    source: 'https://github.com/kronosGR/Nodejs-estore',
+    urls: {
+      url: 'http://estore.kronosgr.net/',
+      android: '',
+    },
+  },
+  {
+    id: 8,
     name: 'Todo',
     year: 2023,
     info: `Simple Todo REST API`,
@@ -16,6 +44,7 @@ export const projects = [
       'icons/express.png',
       'icons/sequelize.png',
       'icons/swagger.png',
+      'icons/mysql.svg',
     ],
     thumb: 'images/todo.png',
     img: 'images/todo.png',

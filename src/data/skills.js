@@ -1,13 +1,5 @@
 export const skills = [
   {
-    name: 'CSS',
-    size: 3,
-  },
-  {
-    name: 'HTML',
-    size: 3,
-  },
-  {
     name: 'JavaScript',
     size: 3,
   },
@@ -24,7 +16,27 @@ export const skills = [
     size: 3,
   },
   {
+    name: 'CSS',
+    size: 3,
+  },
+  {
+    name: 'HTML',
+    size: 3,
+  },
+  {
     name: 'Sequelize.js',
+    size: 3,
+  },
+  {
+    name: 'MySQL',
+    size: 3,
+  },
+  {
+    name: 'jQuery',
+    size: 3,
+  },
+  {
+    name: 'Bootstrap',
     size: 3,
   },
   {
@@ -36,27 +48,20 @@ export const skills = [
     size: 2,
   },
   {
-    name: 'MySQL',
-    size: 2,
-  },
-  {
     name: 'Inkscape',
     size: 2,
   },
+
   {
-    name: 'jQuery',
-    size: 2,
-  },
-  {
-    name: 'Bootstrap',
-    size: 2,
-  },
-  {
-    name: 'SQL',
+    name: 'Swagger',
     size: 2,
   },
   {
     name: 'EJS',
+    size: 2,
+  },
+  {
+    name: 'MongoDB',
     size: 2,
   },
   {
@@ -68,7 +73,19 @@ export const skills = [
     size: 1,
   },
   {
-    name: 'MongoDB',
+    name: 'Azure Cloud',
+    size: 1,
+  },
+  {
+    name: 'Qt',
+    size: 1,
+  },
+  {
+    name: 'C++',
+    size: 1,
+  },
+  {
+    name: 'QML',
     size: 1,
   },
 ];
