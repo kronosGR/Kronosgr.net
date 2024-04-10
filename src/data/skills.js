@@ -65,8 +65,8 @@ export const skills = [
     size: 2,
   },
   {
-    name: 'Swagger',
-    size: 1,
+    name: 'Electron',
+    size: 2,
   },
   {
     name: 'Asp .Net',
@@ -74,18 +74,6 @@ export const skills = [
   },
   {
     name: 'Azure Cloud',
-    size: 1,
-  },
-  {
-    name: 'Qt',
-    size: 1,
-  },
-  {
-    name: 'C++',
-    size: 1,
-  },
-  {
-    name: 'QML',
     size: 1,
   },
 ];

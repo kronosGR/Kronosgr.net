@@ -7,8 +7,14 @@
   justify-content: center;
 }
 
-.link:link {
-  border-bottom: blue 1px solid;
+.link {
+  display: block;
+  width: 100%;
+  text-decoration: underline;
+  font-style: italic;
+  color: blue;
+  font-weight: bold;
+  font-size: 1.2rem;
 }
 
 @media screen and (min-width: 760px) {

@@ -1,5 +1,22 @@
 export const projects = [
   {
+    id: 9,
+    name: 'Chronos ',
+    year: 2024,
+    info: `Simple stopwatch and timer `,
+    plus: `React.js
+    Electron
+`,
+    techs_imgs: ['icons/electron.png', 'icons/react.png'],
+    thumb: 'images/chronos.png',
+    img: 'images/chronos.png',
+    source: 'https://github.com/kronosGR/kandz-chronos',
+    urls: {
+      url: 'https://github.com/kronosGR/kandz-chronos/releases',
+      android: '',
+    },
+  },
+  {
     id: 8,
     name: 'eStore ',
     year: 2023,
