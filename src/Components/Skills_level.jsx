@@ -8,7 +8,7 @@ const SkillsLevel = (props) => {
     return tmp;
   };
 
-  const skills = props.items.map((item, i) => {
+  const skills = props.items?.map((item, i) => {
     return (
       <li key={i} className={`${classes.item} ${size()}`}>
         {item.name}{' '}

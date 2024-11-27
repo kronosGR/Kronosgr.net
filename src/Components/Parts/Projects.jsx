@@ -1,11 +1,26 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import Title from '../Layout/Title';
-
-import styles from './Projects.module.css';
-import { projects } from '../../data/projects';
 import Project from '../Project';
 
+import styles from './Projects.module.css';
+import { getProjects } from '../../data/data';
+
 const Projects = () => {
+  const [projects, setProjects] = useState(null);
+
+  const getData = async () => {
+    const temp = JSON.parse((await getProjects())[0].data);
+    setProjects(temp);
+  };
+
+  useEffect(() => {
+    getData();
+  }, []);
+
+  // useEffect(() => {
+  //   console.log(projects);
+  // }, [projects]);
+
   return (
     <div className={styles.container} id='projects'>
       <Title text='Projects' />
@@ -17,9 +32,8 @@ const Projects = () => {
           href='https://github.com/kronosGR/Projects'>
           Visit Github Projects
         </a>
-        {projects.map((project) => (
-          <Project project={project} key={project.id} />
-        ))}
+        {projects &&
+          projects.map((project) => <Project project={project} key={project.id} />)}
       </div>
     </div>
   );

@@ -10,20 +10,12 @@ import { VisitButtons } from './Layout/VisitButtons';
 const Project = ({ project }) => {
   const [showModal, setShowModal] = useState(false);
 
-  const plus = project.plus.split('\n').map((item, i) => {
-    if (i < project.plus.split('\n').length - 1)
-      return <li key={i}>{item}</li>;
+  const plus = project.plus.split(' --- ').map((item, i) => {
+    if (i < project.plus.split(' --- ').length - 1) return <li key={i}>{item}</li>;
   });
 
   const techs = project.techs_imgs.map((img, i) => {
-    return (
-      <img
-        src={img}
-        key={i}
-        alt='technology'
-        className={styles.tech_img}
-      />
-    );
+    return <img src={img} key={i} alt='technology' className={styles.tech_img} />;
   });
 
   const toggleModal = () => {
@@ -40,25 +32,14 @@ const Project = ({ project }) => {
       <div className={styles.techs_container}>{techs}</div>
       <p>{project.info}</p>
       <ul>{plus}</ul>
-      <img
-        src={project.img}
-        alt={project.name}
-        className={styles.img}
-      />
+      <img src={project.img} alt={project.name} className={styles.img} />
       <div className={styles.btn_container}>
         {project.source.length > 0 && (
-          <Button
-            text='Source Code'
-            img='icons/github.svg'
-            url={project.source}
-          />
+          <Button text='Source Code' img='icons/github.svg' url={project.source} />
         )}
         <VisitButtons urls={project.urls} />
       </div>
-      {showModal && (
-        <div
-          dangerouslySetInnerHTML={{ __html: project.changes }}></div>
-      )}
+      {showModal && <div dangerouslySetInnerHTML={{ __html: project.changes }}></div>}
     </div>
   );
 };

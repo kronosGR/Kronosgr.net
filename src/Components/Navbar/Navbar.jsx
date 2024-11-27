@@ -27,7 +27,7 @@ const Navbar = () => {
         </ul>
         <ExternalLink
           icon='/icons/linkedin.svg'
-          url='https://www.linkedin.com/in/kronosgr/'
+          url='https://www.linkedin.com/in/georgios-katsanakis-3420592b9/'
           title='LinkedIn'
         />
         <ExternalLink
